@@ -1,11 +1,12 @@
 import React from 'react';
+
+import Contador from './hooksComponents/UseStateHookComponent/UseStateHookComponent'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>El proyecto no tiene nada de contenido</h1>
-      <h2>Generalo</h2>
+      <Contador />
     </div>
   );
 }
