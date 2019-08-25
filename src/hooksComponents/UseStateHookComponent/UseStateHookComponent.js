@@ -47,7 +47,7 @@ const Contador = () => {
   const SumaTotal = (contador + micontador.uno + micontador.dos);
   //PREGUNTA -> porque no puedo guardar el valor del textvalue en una constante???
   // const metaFijada = document.querySelector('#meta').value;
-  const metaFin = () => { SumaTotal >= document.querySelector('#meta').value ? console.log('llegamos a la meta') : console.log('todavia falta') }
+  const metaFin = () => { SumaTotal >= document.querySelector('#meta').value ? alert('llegamos a la meta') : console.log('todavia falta') }
   
   return <React.Fragment>
     
